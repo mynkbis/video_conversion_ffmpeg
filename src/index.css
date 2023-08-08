@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper{
+  display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+video{
+  border: 2px solid #157a9e63;
+  height: 60vh;
+  border-radius: 5px;
+      box-shadow: 0px 0px 6px 1px #157a9e63;
+}
+
+.load-btn{
+  width: 50%;
+    height: 48px;
+    border: none;
+    color: #11377bee;
+    position: relative;
+    left: 25%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #eaeaeb;
+}
+.load-btn:hover{
+  cursor: pointer;
+  box-shadow:3px 14px 34px 13px #15639e;
+transition: 1s;
+color: blue;
+}
+.btn-wrapper{
+  width: 100%;
+}
+.rec-btn{
+    border: none;
+    color: #11377bee;
+    width: 10%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    background: #eaeaeb;
+}
+.rec-btn:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 8px 2px #15639e;
+transition: 0.8s;
+color: blue;
+}
